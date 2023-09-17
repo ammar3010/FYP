@@ -1,0 +1,25 @@
+suicidal_threshold = 50
+
+emotion_weights = {
+        'admiration': -1,
+        'amusement': -1,
+        'anger': 4,
+        'annoyance': 3,
+        'confusion': 2,
+        'desire': -1,
+        'disappointment': 5,
+        'embarrassment': 3,
+        'excitement': -1,
+        'fear': 5,
+        'gratitude': -2,
+        'joy': -3,
+        'love': -2,
+        'nervousness': 3,
+        'optimism': -1,
+        'pride': -1,
+        'realization': -2,
+        'remorse': 5,
+        'sadness': 6,
+        'surprise': -1,
+        'neutral': 0,
+    }

@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 import os
 import helpers.suicide as suicide
-from transformers import BertTokenizer
 from model import BertForMultiLabelClassification
 from transformers import BertTokenizer, BertModel
 from helpers.config import emotion_weights, suicidal_threshold

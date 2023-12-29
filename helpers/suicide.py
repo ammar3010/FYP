@@ -50,4 +50,5 @@ def run(text):
     tokenizer = load_bert()
     model = load_model()    
     input_ids, attention_mask = prepare_data(tokenizer, text)
-    return predict(model, input_ids, attention_mask, threshold=0.5)
+    prediction = predict(model, input_ids, attention_mask, threshold=0.5)
+    return prediction
